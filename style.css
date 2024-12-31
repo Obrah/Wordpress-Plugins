@@ -1,0 +1,39 @@
+.cost-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cost-calculator label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cost-calculator input,
+.cost-calculator select,
+.cost-calculator button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.cost-calculator button {
+    background-color: #0073aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cost-calculator button:hover {
+    background-color: #005177;
+}
+
+#cc-result {
+    margin-top: 15px;
+    font-weight: bold;
+}
